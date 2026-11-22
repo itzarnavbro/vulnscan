@@ -1,9 +1,9 @@
 package mq
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/mq"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/mq"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) mq.MQ {

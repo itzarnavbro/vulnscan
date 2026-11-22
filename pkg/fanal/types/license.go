@@ -1,6 +1,6 @@
 package types
 
-import xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+import xslices "vulnscan/pkg/x/slices"
 
 type LicenseType string
 

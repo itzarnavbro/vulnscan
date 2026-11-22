@@ -10,9 +10,9 @@ import (
 	"github.com/google/licenseclassifier/v2/assets"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 // LicenseFileNames are the base names (case-insensitive, without extension) of files

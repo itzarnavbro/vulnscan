@@ -7,9 +7,9 @@ import (
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/misconf"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/misconf"
 )
 
 var configAnalyzerConstructors = make(map[Type]configAnalyzerConstructor)

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/iac/severity"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/ignore"
+	"vulnscan/pkg/iac/severity"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type Status uint8

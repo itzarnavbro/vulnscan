@@ -1,22 +1,22 @@
 package azure
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/appservice"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/authorization"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/container"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/cosmosdb"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/datafactory"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/datalake"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/keyvault"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/monitor"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/securitycenter"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/synapse"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/adapters/terraform/azure/appservice"
+	"vulnscan/pkg/iac/adapters/terraform/azure/authorization"
+	"vulnscan/pkg/iac/adapters/terraform/azure/compute"
+	"vulnscan/pkg/iac/adapters/terraform/azure/container"
+	"vulnscan/pkg/iac/adapters/terraform/azure/cosmosdb"
+	"vulnscan/pkg/iac/adapters/terraform/azure/database"
+	"vulnscan/pkg/iac/adapters/terraform/azure/datafactory"
+	"vulnscan/pkg/iac/adapters/terraform/azure/datalake"
+	"vulnscan/pkg/iac/adapters/terraform/azure/keyvault"
+	"vulnscan/pkg/iac/adapters/terraform/azure/monitor"
+	"vulnscan/pkg/iac/adapters/terraform/azure/network"
+	"vulnscan/pkg/iac/adapters/terraform/azure/securitycenter"
+	"vulnscan/pkg/iac/adapters/terraform/azure/storage"
+	"vulnscan/pkg/iac/adapters/terraform/azure/synapse"
+	"vulnscan/pkg/iac/providers/azure"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) azure.Azure {

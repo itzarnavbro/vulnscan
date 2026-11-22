@@ -1,8 +1,8 @@
 package ecr
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ecr"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/providers/aws/ecr"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts an ECR instance

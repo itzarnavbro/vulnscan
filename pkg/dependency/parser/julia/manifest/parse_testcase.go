@@ -1,6 +1,6 @@
 package julia
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "vulnscan/pkg/fanal/types"
 
 var (
 	juliaV1_6Pkgs = []ftypes.Package{

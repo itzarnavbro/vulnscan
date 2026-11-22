@@ -1,8 +1,8 @@
 package redshift
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/redshift"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/providers/aws/redshift"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts a RedShift instance

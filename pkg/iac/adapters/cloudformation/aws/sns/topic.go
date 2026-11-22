@@ -1,9 +1,9 @@
 package sns
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sns"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/sns"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/types"
 )
 
 func getTopics(ctx parser.FileContext) (topics []sns.Topic) {

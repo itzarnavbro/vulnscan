@@ -3,9 +3,9 @@ package gke
 import (
 	"github.com/google/uuid"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/gke"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/google/gke"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) gke.GKE {

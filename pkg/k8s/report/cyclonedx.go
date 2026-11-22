@@ -7,8 +7,8 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/sbom/cyclonedx"
+	"vulnscan/pkg/sbom/core"
+	"vulnscan/pkg/sbom/cyclonedx"
 )
 
 // CycloneDXWriter implements types.Writer

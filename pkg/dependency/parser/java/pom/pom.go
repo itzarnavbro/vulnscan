@@ -11,11 +11,11 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/utils"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/dependency/parser/utils"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing"
+	"vulnscan/pkg/set"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 type pom struct {

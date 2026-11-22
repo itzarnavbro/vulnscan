@@ -1,9 +1,9 @@
 package dynamodb
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/dynamodb"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/dynamodb"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func getClusters(file parser.FileContext) (clusters []dynamodb.DAXCluster) {

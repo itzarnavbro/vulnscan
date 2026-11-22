@@ -16,9 +16,9 @@ import (
 	"iter"
 	"math/big"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 // objectKind identifies the kind of parsed cryptographic object.

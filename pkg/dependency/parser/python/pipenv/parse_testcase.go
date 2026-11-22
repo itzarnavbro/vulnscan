@@ -1,6 +1,6 @@
 package pipenv
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "vulnscan/pkg/fanal/types"
 
 var (
 	// docker run --name pipenv --rm -it python:3.9-alpine sh

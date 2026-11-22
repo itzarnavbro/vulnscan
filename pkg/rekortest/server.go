@@ -12,7 +12,7 @@ import (
 	"github.com/sigstore/rekor/pkg/generated/models"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/attestation"
+	"vulnscan/pkg/attestation"
 )
 
 var (

@@ -1,8 +1,8 @@
 package rapidfort
 
 import (
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/driver"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/detector/ospkg/driver"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 // Supplier creates a RapidFort driver for curated images, which the RapidFort

@@ -14,14 +14,14 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/fanal/image/name"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/uuid"
+	"vulnscan/pkg/dependency"
+	"vulnscan/pkg/fanal/image/name"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/purl"
+	"vulnscan/pkg/sbom/core"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/uuid"
 )
 
 var (

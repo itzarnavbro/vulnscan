@@ -2,7 +2,7 @@ package iam
 
 import (
 	"github.com/aquasecurity/iamgo"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type IAM struct {

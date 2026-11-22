@@ -19,15 +19,15 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/plugin"
-	"github.com/aquasecurity/trivy/pkg/result"
-	"github.com/aquasecurity/trivy/pkg/rpc/client"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/version/app"
+	"vulnscan/pkg/cache"
+	"vulnscan/pkg/fanal/analyzer"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/plugin"
+	"vulnscan/pkg/result"
+	"vulnscan/pkg/rpc/client"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/version/app"
 )
 
 type FlagType interface {

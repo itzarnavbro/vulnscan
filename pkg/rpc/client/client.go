@@ -11,15 +11,15 @@ import (
 	"github.com/twitchtv/twirp"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	r "github.com/aquasecurity/trivy/pkg/rpc"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	"github.com/aquasecurity/trivy/pkg/x/slices"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
-	"github.com/aquasecurity/trivy/rpc/common"
-	rpc "github.com/aquasecurity/trivy/rpc/scanner"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	r "vulnscan/pkg/rpc"
+	"vulnscan/pkg/types"
+	xhttp "vulnscan/pkg/x/http"
+	"vulnscan/pkg/x/slices"
+	xstrings "vulnscan/pkg/x/strings"
+	"vulnscan/rpc/common"
+	rpc "vulnscan/rpc/scanner"
 )
 
 // ServiceOption holds options for RPC client

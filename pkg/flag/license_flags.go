@@ -1,8 +1,8 @@
 package flag
 
 import (
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing/expression"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing/expression"
 )
 
 var (

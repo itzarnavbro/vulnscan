@@ -1,9 +1,9 @@
 package kinesis
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/kinesis"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/kinesis"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) kinesis.Kinesis {

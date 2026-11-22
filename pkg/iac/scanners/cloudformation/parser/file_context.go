@@ -8,8 +8,8 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/ignore"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type SourceFormat string

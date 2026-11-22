@@ -1,9 +1,9 @@
 package ec2
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/ec2"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func getInstances(ctx parser.FileContext) (instances []ec2.Instance) {

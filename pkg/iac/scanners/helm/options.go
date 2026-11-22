@@ -1,8 +1,8 @@
 package helm
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/helm/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/scanners/helm/parser"
+	"vulnscan/pkg/iac/scanners/options"
 )
 
 func ScannerWithValuesFile(paths ...string) options.ScannerOption {

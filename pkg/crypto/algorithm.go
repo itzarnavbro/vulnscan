@@ -3,7 +3,7 @@ package crypto
 import (
 	"strconv"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 // DescribeAlgorithm describes the algorithm an OID identifies. The size, the subgroup size

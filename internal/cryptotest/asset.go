@@ -4,7 +4,7 @@ package cryptotest
 import (
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/fanal/types"
 )
 
 // Option customizes an Asset fixture.

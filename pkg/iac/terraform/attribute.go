@@ -15,9 +15,9 @@ import (
 	"github.com/zclconf/go-cty/cty/convert"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/aquasecurity/trivy/pkg/iac/terraform/context"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/terraform/context"
+	iacTypes "vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
 )
 
 type Attribute struct {

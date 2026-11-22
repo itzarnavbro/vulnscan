@@ -1,8 +1,8 @@
 package scan
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers"
-	"github.com/aquasecurity/trivy/pkg/iac/severity"
+	"vulnscan/pkg/iac/providers"
+	"vulnscan/pkg/iac/severity"
 )
 
 // TODO: This struct is not currently serialized to JSON,

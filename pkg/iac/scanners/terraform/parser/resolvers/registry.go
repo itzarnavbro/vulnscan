@@ -15,8 +15,8 @@ import (
 	"golang.org/x/net/idna"
 
 	"github.com/aquasecurity/go-version/pkg/version"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"vulnscan/pkg/log"
+	xhttp "vulnscan/pkg/x/http"
 )
 
 type registryResolver struct {

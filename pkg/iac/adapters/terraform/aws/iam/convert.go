@@ -6,9 +6,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/providers/aws/iam"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/terraform"
 )
 
 type wrappedDocument struct {

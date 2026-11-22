@@ -5,7 +5,7 @@ import (
 	"slices"
 
 	"github.com/aquasecurity/trivy-db/pkg/ecosystem"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
+	"vulnscan/pkg/detector/library/compare"
 )
 
 // MatchResult describes how strongly a package matches a supplier.

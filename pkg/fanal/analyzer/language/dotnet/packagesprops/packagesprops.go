@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	props "github.com/aquasecurity/trivy/pkg/dependency/parser/nuget/packagesprops"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	props "vulnscan/pkg/dependency/parser/nuget/packagesprops"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/language"
+	"vulnscan/pkg/fanal/types"
 )
 
 func init() {

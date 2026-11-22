@@ -1,10 +1,10 @@
 package compute
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/adapters/common"
+	"vulnscan/pkg/iac/providers/google/compute"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 const (

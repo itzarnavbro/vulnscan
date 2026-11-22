@@ -14,9 +14,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ecr"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/registry/intf"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/fanal/image/registry/intf"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
 )
 
 type ecrAPI interface {

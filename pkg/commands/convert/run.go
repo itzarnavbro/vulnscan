@@ -9,14 +9,14 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/commands/operation"
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/result"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/commands/operation"
+	"vulnscan/pkg/dependency"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/report"
+	"vulnscan/pkg/result"
+	"vulnscan/pkg/types"
 )
 
 func Run(ctx context.Context, opts flag.Options) (err error) {

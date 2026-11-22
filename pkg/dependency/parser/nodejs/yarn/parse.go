@@ -11,11 +11,11 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/dependency"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	xio "vulnscan/pkg/x/io"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 var (

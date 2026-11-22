@@ -1,9 +1,9 @@
 package codebuild
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/codebuild"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/codebuild"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) codebuild.CodeBuild {

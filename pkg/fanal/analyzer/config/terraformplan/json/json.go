@@ -6,9 +6,9 @@ import (
 
 	"k8s.io/utils/strings/slices"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/config"
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/config"
+	"vulnscan/pkg/iac/detection"
 )
 
 const (

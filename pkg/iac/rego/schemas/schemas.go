@@ -1,7 +1,7 @@
 package schemas
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/types"
 )
 
 var SchemaMap = map[types.Source]Schema{

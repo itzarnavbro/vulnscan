@@ -3,8 +3,8 @@ package network
 import (
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/adapters/common"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type Network struct {

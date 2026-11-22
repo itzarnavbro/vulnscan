@@ -15,11 +15,11 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/licensing/expression"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/purl"
+	"vulnscan/pkg/clock"
+	"vulnscan/pkg/licensing"
+	"vulnscan/pkg/licensing/expression"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/purl"
 )
 
 // IgnoreFinding represents an item to be ignored.

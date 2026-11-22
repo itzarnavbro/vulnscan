@@ -14,11 +14,11 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/go-version/pkg/semver"
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/dependency"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
+	xio "vulnscan/pkg/x/io"
 )
 
 type Parser struct {

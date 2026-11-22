@@ -14,15 +14,15 @@ import (
 	"golang.org/x/xerrors"
 
 	goversion "github.com/aquasecurity/go-version/pkg/version"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/python"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/python/packaging"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/python/pip"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/dependency/parser/python"
+	"vulnscan/pkg/dependency/parser/python/packaging"
+	"vulnscan/pkg/dependency/parser/python/pip"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/language"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 func init() {

@@ -3,10 +3,10 @@ package coreos
 import (
 	"context"
 
-	osver "github.com/aquasecurity/trivy/pkg/detector/ospkg/version"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
+	osver "vulnscan/pkg/detector/ospkg/version"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/types"
 )
 
 // Scanner implements the CoreOS scanner

@@ -11,8 +11,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	"vulnscan/pkg/log"
+	xjson "vulnscan/pkg/x/json"
 )
 
 type TagType string

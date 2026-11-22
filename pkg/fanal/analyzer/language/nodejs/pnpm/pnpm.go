@@ -10,15 +10,15 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/nodejs/pnpm"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/nodejs/license"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
-	xpath "github.com/aquasecurity/trivy/pkg/x/path"
+	"vulnscan/pkg/dependency"
+	"vulnscan/pkg/dependency/parser/nodejs/pnpm"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/language"
+	"vulnscan/pkg/fanal/analyzer/language/nodejs/license"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
+	xpath "vulnscan/pkg/x/path"
 )
 
 func init() {

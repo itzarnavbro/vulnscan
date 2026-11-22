@@ -7,8 +7,8 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 
 	_ "embed"
 )

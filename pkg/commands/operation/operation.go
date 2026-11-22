@@ -8,15 +8,15 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/db"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/misconf"
-	"github.com/aquasecurity/trivy/pkg/policy"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vex"
-	"github.com/aquasecurity/trivy/pkg/vex/repo"
+	"vulnscan/pkg/db"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/misconf"
+	"vulnscan/pkg/policy"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/vex"
+	"vulnscan/pkg/vex/repo"
 )
 
 var mu sync.Mutex

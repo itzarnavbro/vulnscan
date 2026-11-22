@@ -1,11 +1,11 @@
 package dockerfile
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/dockerfile"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/dockerfile/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/generic"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/dockerfile"
+	"vulnscan/pkg/iac/scanners/dockerfile/parser"
+	"vulnscan/pkg/iac/scanners/generic"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
 )
 
 func NewScanner(opts ...options.ScannerOption) *generic.GenericScanner[*dockerfile.Dockerfile] {

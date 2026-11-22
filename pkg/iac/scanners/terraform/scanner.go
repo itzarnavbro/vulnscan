@@ -10,15 +10,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/executor"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/iac/rego"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/scanners"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/scanners/terraform/executor"
+	"vulnscan/pkg/iac/scanners/terraform/parser"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

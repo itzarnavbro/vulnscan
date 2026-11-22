@@ -14,11 +14,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	tfcontext "github.com/aquasecurity/trivy/pkg/iac/terraform/context"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/ignore"
+	"vulnscan/pkg/iac/terraform"
+	tfcontext "vulnscan/pkg/iac/terraform/context"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
 )
 
 const (

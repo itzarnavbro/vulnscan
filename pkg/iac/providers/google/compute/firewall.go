@@ -1,8 +1,8 @@
 package compute
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/adapters/common"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type Firewall struct {

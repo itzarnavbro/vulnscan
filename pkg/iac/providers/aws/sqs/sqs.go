@@ -1,8 +1,8 @@
 package sqs
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/iam"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type SQS struct {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/open-policy-agent/opa/v1/rego"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/scan"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type regoResult struct {

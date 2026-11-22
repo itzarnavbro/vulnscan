@@ -1,20 +1,20 @@
 package azure
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/appservice"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/authorization"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/container"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/cosmosdb"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/datafactory"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/datalake"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/keyvault"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/monitor"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/securitycenter"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/synapse"
+	"vulnscan/pkg/iac/providers/azure/appservice"
+	"vulnscan/pkg/iac/providers/azure/authorization"
+	"vulnscan/pkg/iac/providers/azure/compute"
+	"vulnscan/pkg/iac/providers/azure/container"
+	"vulnscan/pkg/iac/providers/azure/cosmosdb"
+	"vulnscan/pkg/iac/providers/azure/database"
+	"vulnscan/pkg/iac/providers/azure/datafactory"
+	"vulnscan/pkg/iac/providers/azure/datalake"
+	"vulnscan/pkg/iac/providers/azure/keyvault"
+	"vulnscan/pkg/iac/providers/azure/monitor"
+	"vulnscan/pkg/iac/providers/azure/network"
+	"vulnscan/pkg/iac/providers/azure/securitycenter"
+	"vulnscan/pkg/iac/providers/azure/storage"
+	"vulnscan/pkg/iac/providers/azure/synapse"
 )
 
 type Azure struct {

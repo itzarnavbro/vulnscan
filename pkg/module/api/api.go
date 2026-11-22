@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/aquasecurity/trivy/pkg/module/serialize"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/module/serialize"
+	"vulnscan/pkg/types"
 )
 
 const (

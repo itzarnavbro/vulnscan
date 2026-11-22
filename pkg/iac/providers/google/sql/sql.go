@@ -1,7 +1,7 @@
 package sql
 
 import (
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type SQL struct {

@@ -14,13 +14,13 @@ import (
 	"github.com/samber/lo"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/iac/ignore"
+	"vulnscan/pkg/iac/rego"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 func NewJsonScanner(opts ...options.ScannerOption) *GenericScanner[*identityMarshaler] {

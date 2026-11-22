@@ -4,8 +4,8 @@ import (
 	"github.com/open-policy-agent/opa/v1/ast"
 
 	"github.com/aquasecurity/go-version/pkg/semver"
-	"github.com/aquasecurity/trivy/pkg/iac/framework"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/framework"
+	"vulnscan/pkg/log"
 )
 
 type RegoModuleFilter func(module *ast.Module, metadata *StaticMetadata) bool

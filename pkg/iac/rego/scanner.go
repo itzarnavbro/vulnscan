@@ -16,13 +16,13 @@ import (
 	"github.com/open-policy-agent/opa/v1/util"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/framework"
-	"github.com/aquasecurity/trivy/pkg/iac/providers"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/iac/framework"
+	"vulnscan/pkg/iac/providers"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 // DefaultAllowedRegoErrors defines the default number of Rego compile errors

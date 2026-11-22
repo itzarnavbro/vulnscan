@@ -6,9 +6,9 @@ import (
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/aquasecurity/trivy/pkg/k8s/report"
-	"github.com/aquasecurity/trivy/pkg/report/table"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/k8s/report"
+	"vulnscan/pkg/report/table"
+	"vulnscan/pkg/types"
 )
 
 // Write writes the results in the give format

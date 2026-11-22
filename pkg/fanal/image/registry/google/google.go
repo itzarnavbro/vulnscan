@@ -9,8 +9,8 @@ import (
 	"github.com/GoogleCloudPlatform/docker-credential-gcr/v2/store"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/registry/intf"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/fanal/image/registry/intf"
+	"vulnscan/pkg/fanal/types"
 )
 
 type GoogleRegistryClient struct {

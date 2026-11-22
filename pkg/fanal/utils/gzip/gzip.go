@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	"vulnscan/pkg/fanal/utils"
 )
 
 // multiCloser wraps a reader and manages multiple closers for proper cleanup

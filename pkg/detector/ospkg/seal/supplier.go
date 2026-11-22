@@ -3,9 +3,9 @@ package seal
 import (
 	"slices"
 
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/driver"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/detector/ospkg/driver"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/set"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/internal/testutil"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
 )
 
 type adaptFn[T any] func(fctx parser.FileContext) T

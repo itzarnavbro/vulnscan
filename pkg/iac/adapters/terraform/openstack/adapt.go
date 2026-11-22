@@ -1,8 +1,8 @@
 package openstack
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/openstack"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/providers/openstack"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) openstack.OpenStack {

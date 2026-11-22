@@ -23,15 +23,15 @@ import (
 	"golang.org/x/net/html/charset"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/utils"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/dependency"
+	"vulnscan/pkg/dependency/parser/utils"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
+	"vulnscan/pkg/types"
+	xhttp "vulnscan/pkg/x/http"
+	xio "vulnscan/pkg/x/io"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 type options struct {

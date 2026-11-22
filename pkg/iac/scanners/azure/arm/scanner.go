@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"io/fs"
 
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/arm"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure/arm/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/adapters/arm"
+	"vulnscan/pkg/iac/rego"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/scanners"
+	"vulnscan/pkg/iac/scanners/azure"
+	"vulnscan/pkg/iac/scanners/azure/arm/parser"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

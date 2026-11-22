@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	xio "vulnscan/pkg/x/io"
+	xos "vulnscan/pkg/x/os"
 )
 
 // cachedFile represents a file cached in memory or storage according to the file size.

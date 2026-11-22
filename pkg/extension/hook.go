@@ -7,8 +7,8 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/types"
 )
 
 var hooks = make(map[string]Hook)

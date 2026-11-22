@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 type Options struct {

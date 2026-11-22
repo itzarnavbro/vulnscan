@@ -11,11 +11,11 @@ import (
 	"github.com/package-url/packageurl-go"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vex/repo"
-	xsync "github.com/aquasecurity/trivy/pkg/x/sync"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom/core"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/vex/repo"
+	xsync "vulnscan/pkg/x/sync"
 )
 
 var errNoRepository = errors.New("no available VEX repository found")

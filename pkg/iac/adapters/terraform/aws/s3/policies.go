@@ -1,9 +1,9 @@
 package s3
 
 import (
-	iamAdapter "github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iamAdapter "vulnscan/pkg/iac/adapters/terraform/aws/iam"
+	"vulnscan/pkg/iac/providers/aws/iam"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func (a *adapter) adaptBucketPolicies() {

@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/iac/scanners/ansible/vars"
+	"vulnscan/pkg/set"
 )
 
 const (

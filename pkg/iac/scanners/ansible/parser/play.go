@@ -7,9 +7,9 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/scanners/ansible/fsutils"
+	"vulnscan/pkg/iac/scanners/ansible/vars"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 // Playbook represents a sequence of plays in an Ansible playbook.

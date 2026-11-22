@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing"
+	xio "vulnscan/pkg/x/io"
 )
 
 const specNewStr = "Gem::Specification.new"

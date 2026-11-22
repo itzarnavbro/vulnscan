@@ -5,7 +5,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 type Option func(p *Parser)

@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 // elfSymbolVersion attempts to extract the version from the ELF symbol table.

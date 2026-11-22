@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/mapfs"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/mapfs"
+	xio "vulnscan/pkg/x/io"
 )
 
 // memFS is a wrapper of mapfs.FS and can change its underlying file system

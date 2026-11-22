@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 // ErrNoCanonicalForm reports a key that cannot be reduced to SubjectPublicKeyInfo, such as

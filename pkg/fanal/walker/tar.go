@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	"vulnscan/pkg/fanal/utils"
 )
 
 const (

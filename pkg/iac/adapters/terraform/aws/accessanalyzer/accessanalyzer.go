@@ -1,9 +1,9 @@
 package accessanalyzer
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/accessanalyzer"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/accessanalyzer"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) accessanalyzer.AccessAnalyzer {

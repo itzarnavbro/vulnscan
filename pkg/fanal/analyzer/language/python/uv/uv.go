@@ -9,12 +9,12 @@ import (
 
 	"golang.org/x/xerrors"
 
-	uvparser "github.com/aquasecurity/trivy/pkg/dependency/parser/python/uv"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	uvparser "vulnscan/pkg/dependency/parser/python/uv"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/language"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
 )
 
 func init() {

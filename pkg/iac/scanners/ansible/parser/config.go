@@ -10,8 +10,8 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/ini.v1"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
 )
 
 type AnsibleConfig struct {

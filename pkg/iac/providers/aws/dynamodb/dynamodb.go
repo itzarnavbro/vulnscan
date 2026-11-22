@@ -1,7 +1,7 @@
 package dynamodb
 
 import (
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type DynamoDB struct {

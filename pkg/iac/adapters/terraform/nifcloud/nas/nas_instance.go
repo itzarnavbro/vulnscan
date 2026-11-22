@@ -1,8 +1,8 @@
 package nas
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/nas"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/providers/nifcloud/nas"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func adaptNASInstances(modules terraform.Modules) []nas.NASInstance {

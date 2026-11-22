@@ -7,10 +7,10 @@ import (
 	"github.com/samber/lo"
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing/expression"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing/expression"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 type Scanner struct {

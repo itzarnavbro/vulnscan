@@ -7,12 +7,12 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/v1"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/image/name"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/walker"
-	"github.com/aquasecurity/trivy/pkg/misconf"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/image/name"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/fanal/walker"
+	"vulnscan/pkg/misconf"
+	"vulnscan/pkg/sbom/core"
 )
 
 type Option struct {

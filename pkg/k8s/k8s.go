@@ -4,14 +4,14 @@ import (
 	"context"
 
 	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/scan/langpkg"
-	"github.com/aquasecurity/trivy/pkg/scan/local"
-	"github.com/aquasecurity/trivy/pkg/scan/ospkg"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vulnerability"
+	"vulnscan/pkg/cache"
+	"vulnscan/pkg/fanal/applier"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/scan/langpkg"
+	"vulnscan/pkg/scan/local"
+	"vulnscan/pkg/scan/ospkg"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/vulnerability"
 )
 
 // ScanKubernetes implements the scanner

@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/iam"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/google/iam"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type Storage struct {

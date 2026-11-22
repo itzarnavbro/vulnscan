@@ -1,6 +1,6 @@
 package yarn
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "vulnscan/pkg/fanal/types"
 
 var (
 	yarnHappy = []ftypes.Package{

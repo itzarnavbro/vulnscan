@@ -17,8 +17,8 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	xhttp "vulnscan/pkg/x/http"
+	xos "vulnscan/pkg/x/os"
 )
 
 var ErrSkipDownload = errors.New("skip download")

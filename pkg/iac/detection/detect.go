@@ -11,9 +11,9 @@ import (
 	"github.com/google/jsonschema-go/jsonschema"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraformplan/snapshot"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	"vulnscan/pkg/iac/scanners/terraformplan/snapshot"
+	"vulnscan/pkg/log"
+	xjson "vulnscan/pkg/x/json"
 )
 
 type FileType string

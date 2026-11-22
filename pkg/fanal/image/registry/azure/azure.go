@@ -14,8 +14,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/containers/azcontainerregistry"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/registry/intf"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/fanal/image/registry/intf"
+	"vulnscan/pkg/fanal/types"
 )
 
 type RegistryClient struct {

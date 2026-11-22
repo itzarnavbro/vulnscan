@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/set"
 )
 
 func init() {

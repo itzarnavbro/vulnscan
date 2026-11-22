@@ -16,10 +16,10 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/registry"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"vulnscan/pkg/fanal/image/registry"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	xhttp "vulnscan/pkg/x/http"
 )
 
 type Descriptor = remote.Descriptor

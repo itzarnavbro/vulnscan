@@ -7,11 +7,11 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	xio "vulnscan/pkg/x/io"
 )
 
 type Parser interface {

@@ -1,8 +1,8 @@
 package elasticache
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/elasticache"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/providers/aws/elasticache"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) elasticache.ElastiCache {

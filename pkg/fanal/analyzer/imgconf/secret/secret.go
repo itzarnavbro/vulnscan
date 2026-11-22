@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/secret"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/secret"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
 )
 
 const analyzerVersion = 1

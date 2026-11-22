@@ -1,8 +1,8 @@
 package sqs
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sqs"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/providers/aws/sqs"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts an SQS instance

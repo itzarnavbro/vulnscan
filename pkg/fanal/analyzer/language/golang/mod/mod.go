@@ -18,16 +18,16 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/golang/mod"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/golang/sum"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xpath "github.com/aquasecurity/trivy/pkg/x/path"
+	"vulnscan/pkg/dependency/parser/golang/mod"
+	"vulnscan/pkg/dependency/parser/golang/sum"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/language"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
+	xio "vulnscan/pkg/x/io"
+	xpath "vulnscan/pkg/x/path"
 )
 
 func init() {

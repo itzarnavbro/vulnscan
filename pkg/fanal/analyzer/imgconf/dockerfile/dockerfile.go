@@ -10,15 +10,15 @@ import (
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/mapfs"
-	"github.com/aquasecurity/trivy/pkg/misconf"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/version/doc"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/image"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/iac/detection"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/mapfs"
+	"vulnscan/pkg/misconf"
+	"vulnscan/pkg/set"
+	"vulnscan/pkg/version/doc"
 )
 
 var (

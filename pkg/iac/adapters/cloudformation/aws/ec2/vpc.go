@@ -1,11 +1,11 @@
 package ec2
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/iac/providers/aws/ec2"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/set"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 func getVPCs(fctx parser.FileContext) []ec2.VPC {

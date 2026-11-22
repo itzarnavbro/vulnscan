@@ -1,7 +1,7 @@
 package azure
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/types"
 )
 
 type Deployment struct {

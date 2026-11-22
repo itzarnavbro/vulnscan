@@ -11,15 +11,15 @@ import (
 	"github.com/package-url/packageurl-go"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/crypto"
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/crypto"
+	"vulnscan/pkg/dependency"
+	"vulnscan/pkg/fanal/analyzer"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/purl"
+	"vulnscan/pkg/scan/utils"
+	"vulnscan/pkg/types"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 type Config struct {

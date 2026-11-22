@@ -15,10 +15,10 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	"github.com/aquasecurity/trivy/pkg/downloader"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"vulnscan/pkg/clock"
+	"vulnscan/pkg/downloader"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
 )
 
 const (

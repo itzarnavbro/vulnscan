@@ -8,13 +8,13 @@ import (
 
 	"golang.org/x/xerrors"
 
-	sbomatt "github.com/aquasecurity/trivy/pkg/attestation/sbom"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/handler"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom"
+	sbomatt "vulnscan/pkg/attestation/sbom"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/artifact"
+	"vulnscan/pkg/fanal/handler"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom"
 )
 
 func init() {

@@ -3,9 +3,9 @@ package cosmosdb
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/cosmosdb"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/cosmosdb"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) cosmosdb.CosmosDB {

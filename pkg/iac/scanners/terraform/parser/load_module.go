@@ -10,9 +10,9 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/parser/resolvers"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/scanners/terraform/parser/resolvers"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/log"
 )
 
 type ModuleDefinition struct {

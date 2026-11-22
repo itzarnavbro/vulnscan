@@ -19,7 +19,7 @@ import (
 	"github.com/sosedoff/gitkit"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
+	"vulnscan/internal/testutil"
 )
 
 var signature = &object.Signature{

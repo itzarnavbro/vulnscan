@@ -17,13 +17,13 @@ import (
 	wasi "github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/extension"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/log"
-	tapi "github.com/aquasecurity/trivy/pkg/module/api"
-	"github.com/aquasecurity/trivy/pkg/module/serialize"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/extension"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/log"
+	tapi "vulnscan/pkg/module/api"
+	"vulnscan/pkg/module/serialize"
+	"vulnscan/pkg/types"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 var (

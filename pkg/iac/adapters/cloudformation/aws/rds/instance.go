@@ -1,9 +1,9 @@
 package rds
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/rds"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/rds"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/types"
 )
 
 func getClustersAndInstances(ctx parser.FileContext) ([]rds.Cluster, []rds.Instance) {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"io"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/generic"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/kubernetes/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/scanners/generic"
+	"vulnscan/pkg/iac/scanners/kubernetes/parser"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
 )
 
 func NewScanner(opts ...options.ScannerOption) *generic.GenericScanner[*parser.Manifest] {

@@ -6,16 +6,16 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/detector/library"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/detector/library"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
+	"vulnscan/pkg/types"
 
 	// The bundled suppliers are registered eagerly at init time. To opt out,
 	// call library.DeregisterSupplier (e.g., library.DeregisterSupplier("seal"))
 	// after importing this package.
-	_ "github.com/aquasecurity/trivy/pkg/detector/library/all" // register library vulnerability suppliers
+	_ "vulnscan/pkg/detector/library/all" // register library vulnerability suppliers
 )
 
 var (

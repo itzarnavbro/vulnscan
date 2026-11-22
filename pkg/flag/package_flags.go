@@ -1,9 +1,9 @@
 package flag
 
 import (
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/types"
+	xstrings "vulnscan/pkg/x/strings"
 )
 
 var (

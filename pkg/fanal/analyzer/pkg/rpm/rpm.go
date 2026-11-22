@@ -14,11 +14,11 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	xos "vulnscan/pkg/x/os"
 )
 
 func init() {

@@ -11,10 +11,10 @@ import (
 
 	"github.com/aquasecurity/table"
 	"github.com/aquasecurity/tml"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scan/langpkg"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/scan/langpkg"
+	"vulnscan/pkg/types"
 )
 
 type Scanner interface {

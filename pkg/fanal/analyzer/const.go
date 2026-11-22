@@ -1,8 +1,8 @@
 package analyzer
 
 import (
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/iac/detection"
 )
 
 // Type is an alias for types.AnalyzerType for backward compatibility

@@ -1,9 +1,9 @@
 package storage
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/storage"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 const minimumTlsVersionOneTwo = "TLS1_2"

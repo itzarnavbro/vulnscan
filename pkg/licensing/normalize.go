@@ -7,7 +7,7 @@ import (
 
 	"github.com/samber/lo/it"
 
-	expr "github.com/aquasecurity/trivy/pkg/licensing/expression"
+	expr "vulnscan/pkg/licensing/expression"
 )
 
 func licence(name string, hasPlus bool) expr.SimpleExpr {

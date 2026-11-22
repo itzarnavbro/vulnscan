@@ -3,7 +3,7 @@ package packagejson
 import (
 	"encoding/json"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 type packageJSON struct {

@@ -1,7 +1,7 @@
 package compute
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/types"
 )
 
 type Network struct {

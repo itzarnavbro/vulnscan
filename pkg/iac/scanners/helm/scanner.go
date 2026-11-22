@@ -12,17 +12,17 @@ import (
 
 	chartutilv2 "helm.sh/helm/v4/pkg/chart/v2/util"
 
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/helm/parser"
-	kparser "github.com/aquasecurity/trivy/pkg/iac/scanners/kubernetes/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/mapfs"
+	"vulnscan/pkg/iac/detection"
+	"vulnscan/pkg/iac/ignore"
+	"vulnscan/pkg/iac/rego"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/scanners"
+	"vulnscan/pkg/iac/scanners/helm/parser"
+	kparser "vulnscan/pkg/iac/scanners/kubernetes/parser"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/mapfs"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

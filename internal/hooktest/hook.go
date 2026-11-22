@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/extension"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/extension"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/types"
 )
 
 type testHook struct{}

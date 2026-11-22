@@ -1,9 +1,9 @@
 package securitycenter
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/securitycenter"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/securitycenter"
+	"vulnscan/pkg/iac/scanners/azure"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(deployment azure.Deployment) securitycenter.SecurityCenter {

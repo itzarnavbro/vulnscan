@@ -8,11 +8,11 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/crypto/parser/x509"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/crypto/parser/x509"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
+	xio "vulnscan/pkg/x/io"
 )
 
 func init() {

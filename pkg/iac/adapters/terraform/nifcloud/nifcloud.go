@@ -1,14 +1,14 @@
 package nifcloud
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud/computing"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud/dns"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud/nas"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud/network"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud/rdb"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud/sslcertificate"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/adapters/terraform/nifcloud/computing"
+	"vulnscan/pkg/iac/adapters/terraform/nifcloud/dns"
+	"vulnscan/pkg/iac/adapters/terraform/nifcloud/nas"
+	"vulnscan/pkg/iac/adapters/terraform/nifcloud/network"
+	"vulnscan/pkg/iac/adapters/terraform/nifcloud/rdb"
+	"vulnscan/pkg/iac/adapters/terraform/nifcloud/sslcertificate"
+	"vulnscan/pkg/iac/providers/nifcloud"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) nifcloud.Nifcloud {

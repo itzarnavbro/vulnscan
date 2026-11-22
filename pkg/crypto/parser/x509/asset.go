@@ -11,10 +11,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/crypto"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/crypto"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 // objectToAssets describes a parsed object as assets. Material it cannot describe is

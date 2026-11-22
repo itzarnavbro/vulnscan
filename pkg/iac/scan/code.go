@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type Code struct {

@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/version/app"
+	"vulnscan/pkg/version/app"
 )
 
 var (

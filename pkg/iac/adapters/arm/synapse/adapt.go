@@ -1,9 +1,9 @@
 package synapse
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/synapse"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/synapse"
+	"vulnscan/pkg/iac/scanners/azure"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(deployment azure.Deployment) synapse.Synapse {

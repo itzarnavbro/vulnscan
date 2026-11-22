@@ -15,12 +15,12 @@ import (
 	apkVersion "github.com/knqyf263/go-apk-version"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 func init() {

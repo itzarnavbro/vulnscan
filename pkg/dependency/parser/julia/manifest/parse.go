@@ -9,8 +9,8 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	ftypes "vulnscan/pkg/fanal/types"
+	xio "vulnscan/pkg/x/io"
 )
 
 type primitiveManifest struct {

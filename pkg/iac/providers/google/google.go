@@ -1,14 +1,14 @@
 package google
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/bigquery"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/dns"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/gke"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/kms"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/sql"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/storage"
+	"vulnscan/pkg/iac/providers/google/bigquery"
+	"vulnscan/pkg/iac/providers/google/compute"
+	"vulnscan/pkg/iac/providers/google/dns"
+	"vulnscan/pkg/iac/providers/google/gke"
+	"vulnscan/pkg/iac/providers/google/iam"
+	"vulnscan/pkg/iac/providers/google/kms"
+	"vulnscan/pkg/iac/providers/google/sql"
+	"vulnscan/pkg/iac/providers/google/storage"
 )
 
 type Google struct {

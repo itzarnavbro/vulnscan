@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
+	"vulnscan/pkg/iac/providers/azure/database"
+	"vulnscan/pkg/iac/scanners/azure"
 )
 
 // TODO: This is the "Microsoft.Sql/servers/firewallRules" resource

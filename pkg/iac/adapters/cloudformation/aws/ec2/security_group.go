@@ -3,10 +3,10 @@ package ec2
 import (
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/ec2"
+	"vulnscan/pkg/iac/scanners/cloudformation/cftypes"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/types"
 )
 
 func getSecurityGroups(ctx parser.FileContext) []ec2.SecurityGroup {

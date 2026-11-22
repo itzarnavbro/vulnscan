@@ -14,10 +14,10 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/parser"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/mapfs"
-	iox "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/iac/scanners/terraform/parser"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/mapfs"
+	iox "vulnscan/pkg/x/io"
 )
 
 const (

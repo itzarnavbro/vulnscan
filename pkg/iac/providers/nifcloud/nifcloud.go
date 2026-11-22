@@ -1,12 +1,12 @@
 package nifcloud
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/computing"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/dns"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/nas"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/network"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/rdb"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/sslcertificate"
+	"vulnscan/pkg/iac/providers/nifcloud/computing"
+	"vulnscan/pkg/iac/providers/nifcloud/dns"
+	"vulnscan/pkg/iac/providers/nifcloud/nas"
+	"vulnscan/pkg/iac/providers/nifcloud/network"
+	"vulnscan/pkg/iac/providers/nifcloud/rdb"
+	"vulnscan/pkg/iac/providers/nifcloud/sslcertificate"
 )
 
 type Nifcloud struct {

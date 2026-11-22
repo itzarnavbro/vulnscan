@@ -10,14 +10,14 @@ import (
 	"github.com/bmatcuk/doublestar/v4"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/conda/environment"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/conda/meta"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/version/doc"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/dependency/parser/conda/environment"
+	"vulnscan/pkg/dependency/parser/conda/meta"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/analyzer/language"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/version/doc"
+	xio "vulnscan/pkg/x/io"
 )
 
 func init() {

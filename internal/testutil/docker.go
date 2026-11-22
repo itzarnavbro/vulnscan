@@ -12,7 +12,7 @@ import (
 	"github.com/moby/moby/client"
 	"github.com/stretchr/testify/require"
 
-	gzutil "github.com/aquasecurity/trivy/pkg/fanal/utils/gzip"
+	gzutil "vulnscan/pkg/fanal/utils/gzip"
 )
 
 type DockerClient struct {

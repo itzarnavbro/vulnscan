@@ -1,6 +1,6 @@
 package cryptotest
 
-import "github.com/aquasecurity/trivy/pkg/fanal/types"
+import "vulnscan/pkg/fanal/types"
 
 // CertificateDescriptor returns the descriptor of CertificateAsset.
 func CertificateDescriptor() types.CryptoDescriptor {

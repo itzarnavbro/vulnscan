@@ -15,7 +15,7 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
+	"vulnscan/pkg/clock"
 )
 
 const (

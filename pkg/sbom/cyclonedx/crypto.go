@@ -7,10 +7,10 @@ import (
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom/core"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 // ellipticCurves maps the curve names of crypto/elliptic to the CycloneDX elliptic curve

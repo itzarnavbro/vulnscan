@@ -3,7 +3,7 @@ package intf
 import (
 	"context"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/fanal/types"
 )
 
 type RegistryClient interface {

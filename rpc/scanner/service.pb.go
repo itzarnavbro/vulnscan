@@ -7,7 +7,7 @@
 package scanner
 
 import (
-	common "github.com/aquasecurity/trivy/rpc/common"
+	common "vulnscan/rpc/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -307,7 +307,7 @@ func (x *ScanResponse) GetLayers() []*common.Layer {
 	return nil
 }
 
-// Result is the same as github.com/aquasecurity/trivy/pkg/report.Result
+// Result is the same as vulnscan/pkg/report.Result
 type Result struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache

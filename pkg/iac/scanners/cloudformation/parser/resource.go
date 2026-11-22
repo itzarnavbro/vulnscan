@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	iacTypes "vulnscan/pkg/iac/types"
+	xjson "vulnscan/pkg/x/json"
 )
 
 type Resource struct {

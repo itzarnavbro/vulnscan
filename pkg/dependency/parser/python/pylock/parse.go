@@ -8,10 +8,10 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/python"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/dependency"
+	"vulnscan/pkg/dependency/parser/python"
+	ftypes "vulnscan/pkg/fanal/types"
+	xio "vulnscan/pkg/x/io"
 )
 
 type Pylock struct {

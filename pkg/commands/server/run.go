@@ -5,14 +5,14 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/commands/operation"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/module"
-	rpcServer "github.com/aquasecurity/trivy/pkg/rpc/server"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"vulnscan/pkg/cache"
+	"vulnscan/pkg/commands/operation"
+	"vulnscan/pkg/db"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/module"
+	rpcServer "vulnscan/pkg/rpc/server"
+	xhttp "vulnscan/pkg/x/http"
 )
 
 // Run runs the scan

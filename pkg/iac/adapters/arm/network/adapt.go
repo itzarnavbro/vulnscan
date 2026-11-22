@@ -1,10 +1,10 @@
 package network
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/adapters/common"
+	"vulnscan/pkg/iac/providers/azure/network"
+	"vulnscan/pkg/iac/scanners/azure"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func parsePortRange(input string, meta iacTypes.Metadata) common.PortRange {

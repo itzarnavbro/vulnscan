@@ -11,12 +11,12 @@ import (
 	"github.com/in-toto/in-toto-golang/in_toto"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/attestation"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/sbom/cyclonedx"
-	sbomio "github.com/aquasecurity/trivy/pkg/sbom/io"
-	"github.com/aquasecurity/trivy/pkg/sbom/spdx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/attestation"
+	"vulnscan/pkg/sbom/core"
+	"vulnscan/pkg/sbom/cyclonedx"
+	sbomio "vulnscan/pkg/sbom/io"
+	"vulnscan/pkg/sbom/spdx"
+	"vulnscan/pkg/types"
 )
 
 type Format string

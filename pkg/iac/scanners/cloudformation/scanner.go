@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"io/fs"
 
-	adapter "github.com/aquasecurity/trivy/pkg/iac/adapters/cloudformation"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	adapter "vulnscan/pkg/iac/adapters/cloudformation"
+	"vulnscan/pkg/iac/rego"
+	"vulnscan/pkg/iac/scan"
+	"vulnscan/pkg/iac/scanners"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/scanners/options"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
 )
 
 func WithParameters(params map[string]any) options.ScannerOption {

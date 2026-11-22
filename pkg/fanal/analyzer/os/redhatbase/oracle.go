@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/fanal/analyzer"
+	fos "vulnscan/pkg/fanal/analyzer/os"
+	"vulnscan/pkg/fanal/types"
 )
 
 const oracleAnalyzerVersion = 1

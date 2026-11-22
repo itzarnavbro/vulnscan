@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ospkgDetector "github.com/aquasecurity/trivy/pkg/detector/ospkg"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ospkgDetector "vulnscan/pkg/detector/ospkg"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/types"
 )
 
 type Scanner interface {

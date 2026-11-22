@@ -7,12 +7,12 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	sbomio "github.com/aquasecurity/trivy/pkg/sbom/io"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/uuid"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom/core"
+	sbomio "vulnscan/pkg/sbom/io"
+	"vulnscan/pkg/set"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/uuid"
 )
 
 const (

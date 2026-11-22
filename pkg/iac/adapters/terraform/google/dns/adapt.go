@@ -1,9 +1,9 @@
 package dns
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/dns"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/google/dns"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) dns.DNS {

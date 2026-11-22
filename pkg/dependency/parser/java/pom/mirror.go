@@ -7,7 +7,7 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 // mirror is the runtime representation of a <mirror> from settings.xml.

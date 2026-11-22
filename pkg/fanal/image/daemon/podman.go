@@ -13,7 +13,7 @@ import (
 	"github.com/moby/moby/client"
 	"golang.org/x/xerrors"
 
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	xos "vulnscan/pkg/x/os"
 )
 
 var (

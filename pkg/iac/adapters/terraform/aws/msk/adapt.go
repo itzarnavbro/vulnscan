@@ -1,9 +1,9 @@
 package msk
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/msk"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/msk"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) msk.MSK {

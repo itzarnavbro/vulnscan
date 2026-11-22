@@ -3,17 +3,17 @@ package state
 import (
 	"reflect"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/cloudstack"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/digitalocean"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/github"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/kubernetes"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/openstack"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/oracle"
-	"github.com/aquasecurity/trivy/pkg/iac/rego/convert"
+	"vulnscan/pkg/iac/providers/aws"
+	"vulnscan/pkg/iac/providers/azure"
+	"vulnscan/pkg/iac/providers/cloudstack"
+	"vulnscan/pkg/iac/providers/digitalocean"
+	"vulnscan/pkg/iac/providers/github"
+	"vulnscan/pkg/iac/providers/google"
+	"vulnscan/pkg/iac/providers/kubernetes"
+	"vulnscan/pkg/iac/providers/nifcloud"
+	"vulnscan/pkg/iac/providers/openstack"
+	"vulnscan/pkg/iac/providers/oracle"
+	"vulnscan/pkg/iac/rego/convert"
 )
 
 type State struct {

@@ -1,9 +1,9 @@
 package dynamodb
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/dynamodb"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/iac/providers/aws/dynamodb"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 func getTables(fctx parser.FileContext) []dynamodb.Table {

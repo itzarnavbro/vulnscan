@@ -1,7 +1,7 @@
 package flag
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
+	"vulnscan/pkg/iac/rego"
 )
 
 // e.g. config yaml:

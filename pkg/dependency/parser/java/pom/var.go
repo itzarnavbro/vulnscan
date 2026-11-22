@@ -7,7 +7,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 var varRegexp = regexp.MustCompile(`\${(\S+?)}`)

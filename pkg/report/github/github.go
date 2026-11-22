@@ -11,10 +11,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/clock"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/purl"
+	"vulnscan/pkg/types"
 )
 
 const (

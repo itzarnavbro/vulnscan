@@ -5,9 +5,9 @@ import (
 	"maps"
 	"slices"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/iac/scanners/ansible/vars"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 type Host struct {

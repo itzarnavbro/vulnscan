@@ -14,9 +14,9 @@ import (
 	"github.com/spdx/tools-golang/tagvalue"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom/core"
 )
 
 type SPDX struct {

@@ -1,7 +1,7 @@
 package serialize
 
 import (
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 // TODO: replace with analyzer.AnalysisResult

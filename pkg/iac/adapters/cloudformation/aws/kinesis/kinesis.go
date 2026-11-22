@@ -1,8 +1,8 @@
 package kinesis
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/kinesis"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/providers/aws/kinesis"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts a Kinesis instance

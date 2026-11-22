@@ -1,16 +1,16 @@
 package google
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/bigquery"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/dns"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/gke"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/kms"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/sql"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/adapters/terraform/google/bigquery"
+	"vulnscan/pkg/iac/adapters/terraform/google/compute"
+	"vulnscan/pkg/iac/adapters/terraform/google/dns"
+	"vulnscan/pkg/iac/adapters/terraform/google/gke"
+	"vulnscan/pkg/iac/adapters/terraform/google/iam"
+	"vulnscan/pkg/iac/adapters/terraform/google/kms"
+	"vulnscan/pkg/iac/adapters/terraform/google/sql"
+	"vulnscan/pkg/iac/adapters/terraform/google/storage"
+	"vulnscan/pkg/iac/providers/google"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) google.Google {

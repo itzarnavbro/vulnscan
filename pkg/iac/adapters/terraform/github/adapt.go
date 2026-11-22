@@ -1,11 +1,11 @@
 package github
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/github/branch_protections"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/github/repositories"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/github/secrets"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/github"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/adapters/terraform/github/branch_protections"
+	"vulnscan/pkg/iac/adapters/terraform/github/repositories"
+	"vulnscan/pkg/iac/adapters/terraform/github/secrets"
+	"vulnscan/pkg/iac/providers/github"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) github.GitHub {

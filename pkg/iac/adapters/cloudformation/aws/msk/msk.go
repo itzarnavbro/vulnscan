@@ -1,8 +1,8 @@
 package msk
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/msk"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/providers/aws/msk"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts an MSK instance

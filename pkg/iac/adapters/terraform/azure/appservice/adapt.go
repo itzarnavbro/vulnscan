@@ -1,9 +1,9 @@
 package appservice
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/appservice"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/appservice"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) appservice.AppService {

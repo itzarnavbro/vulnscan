@@ -8,15 +8,15 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fingerprint"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/uuid"
-	"github.com/aquasecurity/trivy/pkg/version/app"
+	"vulnscan/pkg/clock"
+	"vulnscan/pkg/fanal/artifact"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/fingerprint"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/report"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/uuid"
+	"vulnscan/pkg/version/app"
 )
 
 // Service is the main service that coordinates security scanning operations.

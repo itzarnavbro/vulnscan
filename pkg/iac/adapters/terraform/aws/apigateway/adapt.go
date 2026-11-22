@@ -1,10 +1,10 @@
 package apigateway
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/apigateway"
-	v1 "github.com/aquasecurity/trivy/pkg/iac/providers/aws/apigateway/v1"
-	v2 "github.com/aquasecurity/trivy/pkg/iac/providers/aws/apigateway/v2"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/providers/aws/apigateway"
+	v1 "vulnscan/pkg/iac/providers/aws/apigateway/v1"
+	v2 "vulnscan/pkg/iac/providers/aws/apigateway/v2"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) apigateway.APIGateway {

@@ -1,6 +1,6 @@
 package crypto
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "vulnscan/pkg/fanal/types"
 
 // algorithm is the hand-maintained knowledge about an OID: the name and family it
 // carries in the CycloneDX cryptography vocabulary, the primitive it provides, and the

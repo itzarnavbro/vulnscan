@@ -14,12 +14,12 @@ import (
 	"golang.org/x/mod/semver"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/dependency"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
+	xio "vulnscan/pkg/x/io"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 var (
@@ -306,11 +306,11 @@ func classifyVersion(foundVersions [][]string, key, moduleName, val string) {
 
 // versionPrefix returns version prefix from `-ldflags` flag key
 // e.g.
-//   - `github.com/aquasecurity/trivy/pkg/version/app.ver` => `version`
+//   - `vulnscan/pkg/version/app.ver` => `version`
 //   - `github.com/google/go-containerregistry/cmd/crane/common.ver` => `common`
 func versionPrefix(s string) string {
 	// Trim module part.
-	// e.g. `github.com/aquasecurity/trivy/pkg/Version.version` => `Version.version`
+	// e.g. `vulnscan/pkg/Version.version` => `Version.version`
 	if _, base, found := strings.CutLast(s, "/"); found {
 		s = base
 	}

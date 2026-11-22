@@ -11,7 +11,7 @@ import (
 
 	"github.com/hashicorp/go-getter"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 type remoteResolver struct {

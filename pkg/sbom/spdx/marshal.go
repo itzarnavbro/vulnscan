@@ -17,16 +17,16 @@ import (
 	spdxutils "github.com/spdx/tools-golang/utils"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/licensing/expression"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	sbomio "github.com/aquasecurity/trivy/pkg/sbom/io"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/uuid"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/clock"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/licensing"
+	"vulnscan/pkg/licensing/expression"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom/core"
+	sbomio "vulnscan/pkg/sbom/io"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/uuid"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 const (

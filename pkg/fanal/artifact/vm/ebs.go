@@ -8,11 +8,11 @@ import (
 	ebsfile "github.com/masahiro331/go-ebs-file"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	config "github.com/aquasecurity/trivy/pkg/config/aws"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/cache"
+	config "vulnscan/pkg/config/aws"
+	"vulnscan/pkg/fanal/artifact"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
 )
 
 // default block size 512 KB

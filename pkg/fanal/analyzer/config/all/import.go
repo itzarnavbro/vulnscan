@@ -1,15 +1,15 @@
 package all
 
 import (
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/ansible"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/azurearm"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/cloudformation"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/dockerfile"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/helm"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/json"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/k8s"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/terraform"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/terraformplan/json"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/terraformplan/snapshot"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/yaml"
+	_ "vulnscan/pkg/fanal/analyzer/config/ansible"
+	_ "vulnscan/pkg/fanal/analyzer/config/azurearm"
+	_ "vulnscan/pkg/fanal/analyzer/config/cloudformation"
+	_ "vulnscan/pkg/fanal/analyzer/config/dockerfile"
+	_ "vulnscan/pkg/fanal/analyzer/config/helm"
+	_ "vulnscan/pkg/fanal/analyzer/config/json"
+	_ "vulnscan/pkg/fanal/analyzer/config/k8s"
+	_ "vulnscan/pkg/fanal/analyzer/config/terraform"
+	_ "vulnscan/pkg/fanal/analyzer/config/terraformplan/json"
+	_ "vulnscan/pkg/fanal/analyzer/config/terraformplan/snapshot"
+	_ "vulnscan/pkg/fanal/analyzer/config/yaml"
 )

@@ -7,10 +7,10 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/scanners/ansible/fsutils"
+	"vulnscan/pkg/iac/scanners/ansible/vars"
+	iacTypes "vulnscan/pkg/iac/types"
+	"vulnscan/pkg/log"
 )
 
 // Role represent project role

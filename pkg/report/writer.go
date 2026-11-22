@@ -9,17 +9,17 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/xerrors"
 
-	cr "github.com/aquasecurity/trivy/pkg/compliance/report"
-	"github.com/aquasecurity/trivy/pkg/extension"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/report/cyclonedx"
-	"github.com/aquasecurity/trivy/pkg/report/github"
-	"github.com/aquasecurity/trivy/pkg/report/predicate"
-	"github.com/aquasecurity/trivy/pkg/report/spdx"
-	"github.com/aquasecurity/trivy/pkg/report/table"
-	"github.com/aquasecurity/trivy/pkg/types"
+	cr "vulnscan/pkg/compliance/report"
+	"vulnscan/pkg/extension"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/report/cyclonedx"
+	"vulnscan/pkg/report/github"
+	"vulnscan/pkg/report/predicate"
+	"vulnscan/pkg/report/spdx"
+	"vulnscan/pkg/report/table"
+	"vulnscan/pkg/types"
 )
 
 const (

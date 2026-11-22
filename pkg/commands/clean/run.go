@@ -5,13 +5,13 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/javadb"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/policy"
-	"github.com/aquasecurity/trivy/pkg/vex/repo"
+	"vulnscan/pkg/cache"
+	"vulnscan/pkg/db"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/javadb"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/policy"
+	"vulnscan/pkg/vex/repo"
 )
 
 func Run(ctx context.Context, opts flag.Options) error {

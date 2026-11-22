@@ -1,7 +1,7 @@
 package computing
 
 import (
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 type SecurityGroup struct {

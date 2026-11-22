@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/iac/scanners/azure"
+	"vulnscan/pkg/iac/types"
+	xjson "vulnscan/pkg/x/json"
 )
 
 type MetadataReceiver interface {

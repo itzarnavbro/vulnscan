@@ -1,7 +1,7 @@
 package pnpm
 
 import (
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 var (

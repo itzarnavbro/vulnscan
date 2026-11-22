@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/rego/convert"
-	"github.com/aquasecurity/trivy/pkg/iac/state"
+	"vulnscan/pkg/iac/rego/convert"
+	"vulnscan/pkg/iac/state"
 )
 
 type RawSchema struct {

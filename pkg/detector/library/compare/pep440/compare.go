@@ -5,7 +5,7 @@ import (
 
 	version "github.com/aquasecurity/go-pep440-version"
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
+	"vulnscan/pkg/detector/library/compare"
 )
 
 // Option is a functional option for Comparer.

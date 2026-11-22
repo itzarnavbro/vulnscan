@@ -1,9 +1,9 @@
 package workspaces
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/workspaces"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/workspaces"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) workspaces.WorkSpaces {

@@ -13,8 +13,8 @@ import (
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/require"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/oci"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/oci"
 )
 
 const defaultMediaType = "application/vnd.aquasec.trivy.db.layer.v1.tar+gzip"

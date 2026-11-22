@@ -2,10 +2,10 @@
 // Import it for side effects to enable supplier-specific advisory detection
 // (e.g., Seal Security, Echo):
 //
-//	import _ "github.com/aquasecurity/trivy/pkg/detector/library/all"
+//	import _ "vulnscan/pkg/detector/library/all"
 package all
 
 import (
-	_ "github.com/aquasecurity/trivy/pkg/detector/library/echo"
-	_ "github.com/aquasecurity/trivy/pkg/detector/library/seal"
+	_ "vulnscan/pkg/detector/library/echo"
+	_ "vulnscan/pkg/detector/library/seal"
 )

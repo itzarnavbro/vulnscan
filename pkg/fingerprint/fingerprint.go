@@ -3,8 +3,8 @@ package fingerprint
 import (
 	"fmt"
 
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/types"
 )
 
 // Fill generates and fills fingerprints for all findings in the report

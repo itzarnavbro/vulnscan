@@ -8,7 +8,7 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	gzutil "github.com/aquasecurity/trivy/pkg/fanal/utils/gzip"
+	gzutil "vulnscan/pkg/fanal/utils/gzip"
 )
 
 type dockerArchive struct {

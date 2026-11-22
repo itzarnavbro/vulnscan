@@ -18,17 +18,17 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/handler"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/walker"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/semaphore"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
-	"github.com/aquasecurity/trivy/pkg/uuid"
+	"vulnscan/pkg/cache"
+	"vulnscan/pkg/digest"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/artifact"
+	"vulnscan/pkg/fanal/handler"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/fanal/walker"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/semaphore"
+	"vulnscan/pkg/utils/fsutils"
+	"vulnscan/pkg/uuid"
 )
 
 const artifactVersion = 0

@@ -1,9 +1,9 @@
 package appservice
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/appservice"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/appservice"
+	"vulnscan/pkg/iac/scanners/azure"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(deployment azure.Deployment) appservice.AppService {

@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/aquasecurity/trivy-db/pkg/ecosystem"
-	"github.com/aquasecurity/trivy/pkg/detector/library"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/npm"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/pep440"
+	"vulnscan/pkg/detector/library"
+	"vulnscan/pkg/detector/library/compare"
+	"vulnscan/pkg/detector/library/compare/npm"
+	"vulnscan/pkg/detector/library/compare/pep440"
 )
 
 // echoLocalSegmentRe matches the "+echo.N" version segment,

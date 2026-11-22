@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 // mavenCentralRepoID is the conventional <id> for the default Maven Central

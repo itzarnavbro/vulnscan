@@ -7,11 +7,11 @@ import (
 	openvex "github.com/openvex/go-vex/pkg/vex"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vex/oci"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/purl"
+	"vulnscan/pkg/sbom/core"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/vex/oci"
 )
 
 type OpenVEX struct {

@@ -7,10 +7,10 @@ import (
 	"unicode"
 
 	"github.com/aquasecurity/trivy-db/pkg/ecosystem"
-	"github.com/aquasecurity/trivy/pkg/detector/library"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/pep440"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/detector/library"
+	"vulnscan/pkg/detector/library/compare"
+	"vulnscan/pkg/detector/library/compare/pep440"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 // Seal Security appends an ecosystem-specific patch-level suffix to the upstream

@@ -8,9 +8,9 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/remote"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/remote"
+	"vulnscan/pkg/set"
 )
 
 // Referrers lists the OCI 1.1 referrers of digest whose ArtifactType is one of

@@ -19,8 +19,8 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
 )
 
 var (

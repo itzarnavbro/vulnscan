@@ -5,9 +5,9 @@ import (
 
 	v1 "github.com/google/go-containerregistry/pkg/v1" // nolint: goimports
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/name"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
+	"vulnscan/pkg/fanal/image/name"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/sbom/core"
 )
 
 // TrivyInfo contains Trivy-specific information

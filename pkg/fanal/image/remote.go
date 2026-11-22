@@ -10,8 +10,8 @@ import (
 	v1types "github.com/google/go-containerregistry/pkg/v1/types"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/remote"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/remote"
 )
 
 func tryRemote(ctx context.Context, imageName string, ref name.Reference, option types.ImageOptions) (types.Image, func(), error) {

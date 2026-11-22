@@ -1,6 +1,6 @@
 package network
 
-import iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+import iacTypes "vulnscan/pkg/iac/types"
 
 type Network struct {
 	ElasticLoadBalancers []ElasticLoadBalancer

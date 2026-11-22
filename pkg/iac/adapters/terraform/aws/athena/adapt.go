@@ -1,9 +1,9 @@
 package athena
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/athena"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/athena"
+	"vulnscan/pkg/iac/terraform"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) athena.Athena {

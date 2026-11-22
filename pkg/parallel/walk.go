@@ -7,8 +7,8 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"vulnscan/pkg/log"
+	xio "vulnscan/pkg/x/io"
 )
 
 const defaultParallel = 5

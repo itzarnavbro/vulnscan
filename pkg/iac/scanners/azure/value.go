@@ -10,8 +10,8 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/iac/types"
+	"vulnscan/pkg/set"
 )
 
 type Kind string

@@ -1,9 +1,9 @@
 package sam
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sam"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/sam"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func getApis(cfFile parser.FileContext) (apis []sam.API) {

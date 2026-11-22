@@ -11,9 +11,9 @@ import (
 	"golang.org/x/mod/sumdb/dirhash"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"vulnscan/pkg/fanal/analyzer"
+	"vulnscan/pkg/fanal/artifact"
+	"vulnscan/pkg/fanal/types"
 )
 
 func CalcKey(id string, artifactVersion int, analyzerVersions analyzer.Versions, hookVersions map[string]int, artifactOpt artifact.Option) (string, error) {

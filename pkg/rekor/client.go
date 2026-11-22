@@ -12,8 +12,8 @@ import (
 	"github.com/sigstore/rekor/pkg/generated/models"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/version/app"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/version/app"
 )
 
 const (

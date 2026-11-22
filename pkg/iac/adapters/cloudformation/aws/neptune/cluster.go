@@ -1,9 +1,9 @@
 package neptune
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/neptune"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/neptune"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	"vulnscan/pkg/iac/types"
 )
 
 func getClusters(ctx parser.FileContext) (clusters []neptune.Cluster) {

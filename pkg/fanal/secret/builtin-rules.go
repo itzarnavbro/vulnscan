@@ -3,9 +3,9 @@ package secret
 import (
 	"fmt"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	iacRules "github.com/aquasecurity/trivy/pkg/iac/rules"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/fanal/types"
+	iacRules "vulnscan/pkg/iac/rules"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/log"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 func ExportModules(modules Modules) TerraformConfigExport {

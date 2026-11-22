@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/clock"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
 )
 
 // Major returns the major version

@@ -5,7 +5,7 @@ import (
 	"golang.org/x/xerrors"
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
+	"vulnscan/pkg/detector/library/compare"
 )
 
 // Comparer represents a comparer for Bitnami

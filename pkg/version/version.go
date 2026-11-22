@@ -6,11 +6,11 @@ import (
 
 	"github.com/aquasecurity/trivy-db/pkg/metadata"
 	javadb "github.com/aquasecurity/trivy-java-db/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/policy"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/version/app"
+	"vulnscan/pkg/db"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/policy"
+	"vulnscan/pkg/types"
+	"vulnscan/pkg/version/app"
 )
 
 // VersionOption is a functional option for NewVersionInfo

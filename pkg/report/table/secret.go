@@ -10,7 +10,7 @@ import (
 
 	"github.com/aquasecurity/tml"
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/types"
 )
 
 type secretRenderer struct {

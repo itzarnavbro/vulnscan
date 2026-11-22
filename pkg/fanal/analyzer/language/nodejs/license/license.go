@@ -10,12 +10,12 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/nodejs/packagejson"
-	nodepkg "github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/nodejs/pkg"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"vulnscan/pkg/dependency/parser/nodejs/packagejson"
+	nodepkg "vulnscan/pkg/fanal/analyzer/language/nodejs/pkg"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/licensing"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/utils/fsutils"
 )
 
 type License struct {

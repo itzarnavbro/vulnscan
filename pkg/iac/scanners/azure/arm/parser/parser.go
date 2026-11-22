@@ -7,8 +7,8 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/iac/scanners/azure"
+	"vulnscan/pkg/log"
 )
 
 type Parser struct {

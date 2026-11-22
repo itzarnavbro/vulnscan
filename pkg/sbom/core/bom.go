@@ -7,9 +7,9 @@ import (
 	"github.com/samber/lo"
 
 	dtypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/digest"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/uuid"
+	"vulnscan/pkg/digest"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/uuid"
 )
 
 const (

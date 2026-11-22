@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/cache"
+	"vulnscan/pkg/log"
 )
 
 var (

@@ -4,10 +4,10 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/sbom/core"
+	"vulnscan/pkg/types"
+	xslices "vulnscan/pkg/x/slices"
 )
 
 type CycloneDX struct {

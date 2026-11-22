@@ -4,7 +4,7 @@ import (
 	"context"
 	"io/fs"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
+	"vulnscan/pkg/iac/scan"
 )
 
 type FSScanner interface {

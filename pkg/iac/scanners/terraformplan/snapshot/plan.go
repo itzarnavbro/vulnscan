@@ -9,7 +9,7 @@ import (
 	ctymsgpack "github.com/zclconf/go-cty/cty/msgpack"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraformplan/snapshot/planproto"
+	"vulnscan/pkg/iac/scanners/terraformplan/snapshot/planproto"
 )
 
 type DynamicValue []byte

@@ -12,13 +12,13 @@ import (
 	"github.com/aquasecurity/trivy-db/pkg/ecosystem"
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/rapidfort"
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/driver"
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/version"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/detector/ospkg/driver"
+	"vulnscan/pkg/detector/ospkg/version"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/scan/utils"
+	"vulnscan/pkg/set"
+	"vulnscan/pkg/types"
 )
 
 // rpmDistTag returns the RPM dist tag and its trailing digits from the

@@ -7,7 +7,7 @@ import (
 	"github.com/cenkalti/backoff/v6"
 	"github.com/twitchtv/twirp"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 const (

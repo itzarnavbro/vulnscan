@@ -19,11 +19,11 @@ import (
 	"github.com/hashicorp/hcl/v2/hclparse"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	tfcontext "github.com/aquasecurity/trivy/pkg/iac/terraform/context"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/fanal/utils"
+	"vulnscan/pkg/iac/ignore"
+	"vulnscan/pkg/iac/terraform"
+	tfcontext "vulnscan/pkg/iac/terraform/context"
+	"vulnscan/pkg/log"
 )
 
 type sourceFile struct {

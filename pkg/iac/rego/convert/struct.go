@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/types"
 )
 
 type metadataProvider interface {

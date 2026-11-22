@@ -14,9 +14,9 @@ import (
 	"github.com/fatih/color"
 	"github.com/google/go-containerregistry/pkg/v1/types"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/secret"
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/fanal/secret"
+	"vulnscan/pkg/fanal/utils"
+	"vulnscan/pkg/log"
 )
 
 const (

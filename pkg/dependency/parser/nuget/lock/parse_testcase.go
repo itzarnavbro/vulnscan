@@ -1,6 +1,6 @@
 package lock
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "vulnscan/pkg/fanal/types"
 
 var (
 	// docker run --rm -i -t mcr.microsoft.com/dotnet/sdk:latest

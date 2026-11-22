@@ -9,7 +9,7 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/types"
+	"vulnscan/pkg/types"
 )
 
 // JSONWriter implements result Writer

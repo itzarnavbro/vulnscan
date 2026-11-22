@@ -23,7 +23,7 @@ import (
 	"helm.sh/helm/v4/pkg/release"
 	releaseutil "helm.sh/helm/v4/pkg/release/v1/util"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"vulnscan/pkg/log"
 )
 
 var manifestNameRegex = regexp.MustCompile("# Source: [^/]+/(.+)")

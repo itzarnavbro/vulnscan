@@ -1,9 +1,9 @@
 package eks
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/eks"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/eks"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func getClusters(ctx parser.FileContext) (clusters []eks.Cluster) {

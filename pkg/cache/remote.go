@@ -8,11 +8,11 @@ import (
 	"golang.org/x/xerrors"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/rpc"
-	"github.com/aquasecurity/trivy/pkg/rpc/client"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	rpcCache "github.com/aquasecurity/trivy/rpc/cache"
+	"vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/rpc"
+	"vulnscan/pkg/rpc/client"
+	xhttp "vulnscan/pkg/x/http"
+	rpcCache "vulnscan/rpc/cache"
 )
 
 var _ ArtifactCache = (*RemoteCache)(nil)

@@ -12,9 +12,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	"vulnscan/pkg/iac/ignore"
+	"vulnscan/pkg/log"
+	xjson "vulnscan/pkg/x/json"
 )
 
 type Parser struct {

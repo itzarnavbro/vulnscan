@@ -3,9 +3,9 @@ package cloudfront
 import (
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/cloudfront"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/cloudfront"
+	"vulnscan/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func getDistributions(ctx parser.FileContext) (distributions []cloudfront.Distribution) {

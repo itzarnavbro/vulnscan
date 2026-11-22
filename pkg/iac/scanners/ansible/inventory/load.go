@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"vulnscan/pkg/iac/scanners/ansible/fsutils"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/set"
 )
 
 const defaultHostsFile = "/etc/ansible/hosts"

@@ -15,10 +15,10 @@ import (
 	"github.com/samber/lo"
 
 	"github.com/aquasecurity/go-version/pkg/semver"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/version/app"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"vulnscan/pkg/flag"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/version/app"
+	xhttp "vulnscan/pkg/x/http"
 )
 
 type VersionChecker struct {

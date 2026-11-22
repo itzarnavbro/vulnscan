@@ -1,6 +1,6 @@
 package accessanalyzer
 
-import "github.com/aquasecurity/trivy/pkg/iac/types"
+import "vulnscan/pkg/iac/types"
 
 type AccessAnalyzer struct {
 	Analyzers []Analyzer

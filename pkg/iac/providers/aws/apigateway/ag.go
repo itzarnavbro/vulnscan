@@ -1,8 +1,8 @@
 package apigateway
 
 import (
-	v1 "github.com/aquasecurity/trivy/pkg/iac/providers/aws/apigateway/v1"
-	v2 "github.com/aquasecurity/trivy/pkg/iac/providers/aws/apigateway/v2"
+	v1 "vulnscan/pkg/iac/providers/aws/apigateway/v1"
+	v2 "vulnscan/pkg/iac/providers/aws/apigateway/v2"
 )
 
 type APIGateway struct {

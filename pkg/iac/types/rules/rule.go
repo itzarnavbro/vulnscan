@@ -1,7 +1,7 @@
 package rules
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
+	"vulnscan/pkg/iac/scan"
 )
 
 type RegisteredRule struct {

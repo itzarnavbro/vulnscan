@@ -1,8 +1,8 @@
 package iam
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"vulnscan/pkg/iac/providers/aws/iam"
+	"vulnscan/pkg/iac/terraform"
 )
 
 func adaptRoles(modules terraform.Modules) []iam.Role {

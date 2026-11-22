@@ -1,9 +1,9 @@
 package ecs
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ecs"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/ecs"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) ecs.ECS {

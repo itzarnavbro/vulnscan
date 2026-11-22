@@ -1,9 +1,9 @@
 package network
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/network"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/nifcloud/network"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func adaptRouters(modules terraform.Modules) []network.Router {

@@ -1,7 +1,7 @@
 package types
 
 import (
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "vulnscan/pkg/fanal/types"
 )
 
 type DetectedSecret ftypes.SecretFinding

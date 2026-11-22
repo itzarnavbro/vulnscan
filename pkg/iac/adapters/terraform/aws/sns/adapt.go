@@ -1,9 +1,9 @@
 package sns
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sns"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/aws/sns"
+	"vulnscan/pkg/iac/terraform"
+	"vulnscan/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) sns.SNS {

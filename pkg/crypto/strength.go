@@ -1,6 +1,6 @@
 package crypto
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "vulnscan/pkg/fanal/types"
 
 // strengthBasis is the published basis the security levels of an algorithm are assessed
 // from. The levels themselves are assessed after caching by AssessStrength, so that a

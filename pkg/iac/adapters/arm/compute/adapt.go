@@ -1,10 +1,10 @@
 package compute
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"vulnscan/pkg/iac/providers/azure/compute"
+	"vulnscan/pkg/iac/providers/azure/network"
+	"vulnscan/pkg/iac/scanners/azure"
+	iacTypes "vulnscan/pkg/iac/types"
 )
 
 func Adapt(deployment azure.Deployment) compute.Compute {

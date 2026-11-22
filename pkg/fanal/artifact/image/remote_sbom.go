@@ -12,15 +12,15 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	sbomatt "github.com/aquasecurity/trivy/pkg/attestation/sbom"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact/sbom"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/oci"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	sbomatt "vulnscan/pkg/attestation/sbom"
+	"vulnscan/pkg/fanal/artifact"
+	"vulnscan/pkg/fanal/artifact/sbom"
+	ftypes "vulnscan/pkg/fanal/types"
+	"vulnscan/pkg/log"
+	"vulnscan/pkg/oci"
+	"vulnscan/pkg/set"
+	"vulnscan/pkg/types"
+	xos "vulnscan/pkg/x/os"
 )
 
 var errNoSBOMFound = xerrors.New("remote SBOM not found")
