@@ -1,0 +1,83 @@
+# ==========================================
+# 1. Compiled Binaries & Build Artifacts
+# ==========================================
+/vulnscan
+/vulnscan.exe
+/trivy
+/trivy.exe
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/dist/
+/build/
+
+# ==========================================
+# 2. Upstream Trivy Bloat (Not Needed for Your Repo)
+# ==========================================
+# Documentation, branding, & release automation
+/docs/
+/brand/
+/ci/
+/magefiles/
+/misc/
+/.github/
+/.vex/
+mkdocs.yml
+goreleaser.yml
+goreleaser-canary.yml
+.golangci.yml
+.release-please-manifest.json
+release-please-config.json
+buf.yaml
+buf.gen.yaml
+Dockerfile.canary
+CONTRIBUTING.md
+CHANGELOG.md
+SECURITY.md
+
+# Heavy test suites, Helm charts, & unused examples
+/e2e/
+/integration/
+/examples/
+/helm/
+
+# ==========================================
+# 3. Runtime Cache, Databases & Scan Outputs
+# ==========================================
+.cache/
+trivy.db
+trivy-java.db
+*.tar
+*.tar.gz
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+/uploads/
+/reports/
+
+# ==========================================
+# 4. Future Backend (Python/FastAPI) & Frontend (React)
+# ==========================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+node_modules/
+frontend/dist/
+
+# ==========================================
+# 5. IDE & OS Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore Trivy unit test fixtures (contains dummy API keys for secret scanner tests)
+**/testdata/
+*_test.go
